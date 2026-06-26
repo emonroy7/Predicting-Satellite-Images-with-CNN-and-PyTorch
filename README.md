@@ -57,7 +57,7 @@ Each ConvBlock: `Conv2d → BN → ReLU → Conv2d → BN → ReLU → MaxPool2d
 ## Project Structure
 
 ```
-├── k10.ipynb               # Main notebook (all 5 sections)
+├── project.ipynb               # Main notebook (all 5 sections)
 ├── app/
 │   ├── app.py              # Shiny web application
 │   └── best_model.pth      # Trained model weights
