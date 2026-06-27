@@ -10,7 +10,6 @@ Satellite image classification is a genuinely hard and impactful problem. Being 
 
 ## 1. Executive Summary
 
-### The Business Problem
 Organizations in agriculture, urban planning, environmental monitoring, and disaster response need to classify large volumes of satellite imagery quickly and accurately. Manual classification is slow, expensive, and impossible to scale across thousands of square kilometers.
 
 ### The Solution
