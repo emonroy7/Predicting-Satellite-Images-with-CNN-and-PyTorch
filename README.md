@@ -171,7 +171,7 @@ The model performs strongly across most classes. Key observations:
 ## Project Structure
 
 ```
-├── project.ipynb               # Main notebook (all 5 sections)
+├── project.py               # Code
 ├── app/
 │   ├── app.py                  # Shiny web application
 │   └── best_model.pth          # Trained model weights
