@@ -2,7 +2,7 @@
 
 ---
 
-## 0. About This Project
+## # About This Project
 
 Satellite image classification is a genuinely hard and impactful problem. Being able to automatically identify terrain types at scale has direct applications in climate monitoring, agricultural planning, and urban development. This project gave me the opportunity to work hands-on with computer vision, deep learning, and full-stack ML deployment — skills I want to carry into a career in data science and AI.
 
@@ -24,11 +24,6 @@ An end-to-end deep learning pipeline that automatically classifies satellite ima
 | Terrain Classes | 10 |
 | Model Parameters | 1,241,578 |
 | Training Time | ~50 min (CPU) |
-
-### A Few Next Steps
-- Deploy model to cloud (AWS / GCP) for real-time satellite feed inference
-- Expand to multispectral (13-band) EuroSAT for higher accuracy
-- Integrate with GIS tools (QGIS, ArcGIS) for geospatial workflows
 
 ---
 
@@ -127,7 +122,6 @@ Input (3 × 64 × 64)
 | Image Processing | Pillow (PIL) |
 | ML Utilities | scikit-learn (stratified split, confusion matrix) |
 | Web App | Shiny for Python (Express) |
-| Environment | Google Colab (GPU training) |
 
 ---
 
@@ -168,15 +162,9 @@ The model performs strongly across most classes. Key observations:
 
 ## 6. Next Steps
 
-1. **Multispectral data** — Upgrade from 3-band RGB to 13-band EuroSAT (includes NIR, SWIR) for significantly higher accuracy on crop and vegetation classes
-
-2. **Larger dataset** — Incorporate the full EuroSAT dataset (27,000 images) or Sentinel-2 patches for better generalization across global geographies
-
-3. **Cloud deployment** — Containerize with Docker and deploy to AWS Lambda or GCP Cloud Run for real-time satellite feed classification at scale
-
-4. **Change detection** — Extend the model to compare images of the same location over time, detecting urban sprawl, deforestation, or crop rotation patterns
-
-5. **GIS integration** — Export predictions with geographic coordinates for direct overlay in QGIS or ArcGIS workflows
+- Deploy model to cloud (AWS / GCP) for real-time satellite feed inference
+- Expand to multispectral (13-band) EuroSAT for higher accuracy
+- Integrate with GIS tools (QGIS, ArcGIS) for geospatial workflows
 
 ---
 
@@ -225,4 +213,3 @@ Open `http://127.0.0.1:8000` in your browser.
 
 ---
 
-**Author:** Ehtesham · Student ID: k10
